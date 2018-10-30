@@ -1,0 +1,56 @@
+.a
+{
+	height: 100vh;
+	width: 100vw;
+}
+.g
+{
+	width: 50vw;
+	height: 100vh;
+	background-color: #34C88A;	
+	left: 0;
+	position: absolute;
+	animation: g 5s ease;
+}
+.w
+{
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	right: 0;
+	background-color: white;
+	animation: w 5s ease;
+}
+@keyframes g 
+{
+	0%{
+		widows: 0vw;
+	}
+	33%{
+		width: 100vw;
+	}
+
+	
+	66%{
+		width: 0vw;
+	}
+	100%{
+		width: 50vw;
+	}
+}
+@keyframes w 
+{
+	0%{
+		width: 100vw;
+	}
+	33%{
+		width: 0vw;
+	}
+	
+	66%{
+		width: 100vw;
+	}
+	100%{
+		width: 50vw;
+	}
+}
